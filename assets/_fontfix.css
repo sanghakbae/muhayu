@@ -1,0 +1,10 @@
+/* 사이트 디자인 폰트(GmarketSans) 적용 보정.
+   원본 custom.cm 의 --unit-style--font-family 와 동일한 스택을 본문에 강제한다.
+   아이콘 폰트(FontAwesome / im-icon / Material 등)는 자체 font-family 를 쓰므로 영향 없음. */
+body,
+button, input, select, textarea, optgroup,
+p, span, a, li, td, th, dd, dt,
+h1, h2, h3, h4, h5, h6,
+.txt, .inner, .editor_view, .cont {
+  font-family: 'GmarketSans', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic', 'Noto Sans', sans-serif;
+}
