@@ -3,3 +3,4 @@
 _scrape/
 *.log
 node_modules/
+_mirror/
